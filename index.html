@@ -3,126 +3,189 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAADR | 去中心化AI自治自由民主共和国</title>
+    <title>DAADR | Decentralized AI Autonomous Democratic Republic</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav>
-        <div class="logo">DAADR <span class="tag">PILOT ZONE</span></div>
-        <div class="nav-links">
-            <a href="#mission">使命</a>
-            <a href="#values">核心价值</a>
-            <a href="#vision">愿景</a>
-            <a href="#join" class="btn-small">加入我们</a>
+        <div class="logo-container">
+            <img src="logo.png" alt="DAADR Logo" class="logo-img">
+            <div class="logo-text">DAADR <span class="tag">PILOT ZONE</span></div>
+        </div>
+        <div class="nav-right">
+            <div class="nav-links">
+                <a href="#mission" class="lang-cn">使命</a>
+                <a href="#mission" class="lang-en hidden">Mission</a>
+                
+                <a href="#values" class="lang-cn">核心价值</a>
+                <a href="#values" class="lang-en hidden">Values</a>
+                
+                <a href="#vision" class="lang-cn">愿景</a>
+                <a href="#vision" class="lang-en hidden">Vision</a>
+            </div>
+            <button id="lang-toggle" class="btn-lang">EN / 中文</button>
         </div>
     </nav>
 
     <header id="hero">
         <div class="container">
             <h2 class="glitch" data-text="OS REWRITE">OS REWRITE</h2>
-            <h1>去中心化 AI 自治<br>自由民主共和国</h1>
-            <p class="subtitle">Decentralized AI Autonomous Democratic Republic (Ver 3.0)</p>
-            <p class="intro-text">
-                从“被治理”到“自组织” —— 人类文明操作系统的重写。<br>
-                我们拒绝接受一个科技丰盛却分配不公的未来。
+            
+            <h1 class="lang-cn">去中心化 AI 自治<br>自由民主共和国</h1>
+            <h1 class="lang-en hidden">Decentralized AI Autonomous<br>Democratic Republic</h1>
+            
+            <p class="subtitle">Ver 3.0 Pilot Zone</p>
+            
+            <p class="intro-text lang-cn">
+                终结为生计而拼搏，开启为梦想而创新的纪元。<br>
+                一个没有独裁、特权与腐败的新文明试验区。
             </p>
+            <p class="intro-text lang-en hidden">
+                End working for survival, start innovating for dreams.<br>
+                A new civilization pilot zone free of dictatorship, privilege, and corruption.
+            </p>
+            
             <div class="cta-group">
-                <a href="#join" class="btn-primary">成为创始公民</a>
-                <a href="#manifesto" class="btn-secondary">阅读宣言</a>
+                <a href="#join" class="btn-primary lang-cn">加入我们</a>
+                <a href="#join" class="btn-primary lang-en hidden">Join Us</a>
+                
+                <a href="https://daadr-pilot.github.io/C-Users-Administrator-Desktop-DAADR_Website/DAADR%20%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80%E4%B8%8E%E5%88%9B%E4%B8%96%E4%B9%A6.pdf" target="_blank" class="btn-secondary lang-cn">阅读宣言 (PDF)</a>
+                <a href="https://daadr-pilot.github.io/C-Users-Administrator-Desktop-DAADR_Website/DAADR%20%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80%E4%B8%8E%E5%88%9B%E4%B8%96%E4%B9%A6.pdf" target="_blank" class="btn-secondary lang-en hidden">Read Manifesto (PDF)</a>
             </div>
         </div>
     </header>
 
     <section id="mission">
         <div class="container">
-            <h3>核心使命宣言 <span class="en-sub">Our Core Mission</span></h3>
+            <h3 class="lang-cn">核心使命 <span class="sub">The Mission</span></h3>
+            <h3 class="lang-en hidden">Our Mission <span class="sub">The OS-Level Rebuild</span></h3>
+            
             <div class="quote-box">
-                <p>“用去中心化与 AI 自治，彻底重建一个没有独裁、没有腐败、没有特权与恐惧的新世界。”</p>
+                <p class="lang-cn">“用去中心化与 AI 自治，彻底重建一个没有独裁、没有腐败、没有特权与恐惧的新世界。”</p>
+                <p class="lang-en hidden">"To rebuild a new world free of dictatorship, corruption, privilege, and fear through decentralization and AI autonomy."</p>
             </div>
 
-            <div class="mission-grid">
-                <div class="mission-card">
-                    <h4>政治解放：终结独裁</h4>
-                    <p>用去中心化技术剥夺独裁诞生的土壤，将权力关进代码的笼子，建立靠“共识”运作的社会。</p>
+            <div class="grid-3">
+                <div class="card">
+                    <div class="icon">⚖️</div>
+                    <h4 class="lang-cn">政治解放</h4>
+                    <h4 class="lang-en hidden">Political Liberation</h4>
+                    <p class="lang-cn">终结独裁。用代码剥夺暴政的土壤，建立靠“共识”运作的社会。</p>
+                    <p class="lang-en hidden">End dictatorship. Use code to eliminate tyranny and build a consensus-based society.</p>
                 </div>
-                <div class="mission-card">
-                    <h4>经济解放：UBI 文明跃迁</h4>
-                    <p>通过全民基本收入（UBI），将 AI 产生的财富公平返还公民，保障人类基本的生存尊严。</p>
+                <div class="card">
+                    <div class="icon">💎</div>
+                    <h4 class="lang-cn">经济解放</h4>
+                    <h4 class="lang-en hidden">Economic Liberation</h4>
+                    <p class="lang-cn">UBI 文明跃迁。将 AI 财富返还公民，保障生存尊严。</p>
+                    <p class="lang-en hidden">UBI transcendence. Return AI wealth to citizens to guarantee survival dignity.</p>
                 </div>
-                <div class="mission-card">
-                    <h4>精神解放：从生存到创造</h4>
-                    <p>让人类从“为生计而拼搏”中解放出来，跃迁至“为梦想、为创新、为创造而奋斗”的文明追求。</p>
+                <div class="card">
+                    <div class="icon">🚀</div>
+                    <h4 class="lang-cn">精神解放</h4>
+                    <h4 class="lang-en hidden">Spiritual Liberation</h4>
+                    <p class="lang-cn">从生存到创造。跃迁至为梦想、为创新而奋斗的文明。</p>
+                    <p class="lang-en hidden">From survival to creation. Leap towards a civilization of dreams and innovation.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="values">
+    <section id="values" class="bg-dark">
         <div class="container">
-            <h3>八大核心价值观 <span class="en-sub">The 8 Core Values</span></h3>
-            <p class="value-intro">我们的价值观不是口号，而是对抗独裁与腐败的防御机制。</p>
-            <div class="value-list">
-                <div class="value-item">
-                    <h4>1. 放下历史，面向未来</h4>
-                    <p><strong>机制承诺：</strong> AI 消除偏见 + 区块链不可篡改。</p>
-                    <small>消除种族冲突、历史仇恨与文化偏见。</small>
+            <h3 class="lang-cn">八大立国基石 <span class="sub">Core Values</span></h3>
+            <h3 class="lang-en hidden">8 Core Values <span class="sub">The Foundation</span></h3>
+
+            <div class="grid-4">
+                <div class="value-card">
+                    <span class="num">01</span>
+                    <h4 class="lang-cn">放下历史，面向未来</h4>
+                    <h4 class="lang-en hidden">Future Oriented</h4>
+                    <p class="lang-cn">AI 消除偏见，区块链记录真相。消除种族与历史仇恨。</p>
+                    <p class="lang-en hidden">AI eliminates bias, Blockchain records truth. Erase historical hatred.</p>
                 </div>
-                <div class="value-item">
-                    <h4>2. 走出传统，拥抱现代文明</h4>
-                    <p><strong>机制承诺：</strong> 基于普世价值建立数字契约。</p>
-                    <small>破除封建残余、僵化思想与反现代化的束缚。</small>
+                <div class="value-card">
+                    <span class="num">02</span>
+                    <h4 class="lang-cn">走出传统文化，拥抱现代文明</h4>
+                    <h4 class="lang-en hidden">Modern Civilization</h4>
+                    <p class="lang-cn">基于普世价值建立数字契约，破除封建僵化。</p>
+                    <p class="lang-en hidden">Build digital contracts on universal values.</p>
                 </div>
-                <div class="value-item">
-                    <h4>3. 自由与民主 —— 杜绝专制</h4>
-                    <p><strong>机制承诺：</strong> 流体民主 (Liquid Democracy) + 二次投票 (Quadratic Voting)。</p>
-                    <small>确保每一张票都真实有效，杜绝专制与假民主。</small>
+                <div class="value-card">
+                    <span class="num">03</span>
+                    <h4 class="lang-cn">自由与民主</h4>
+                    <h4 class="lang-en hidden">Freedom & Democracy</h4>
+                    <p class="lang-cn">流体民主 + 二次投票。杜绝专制与假民主。</p>
+                    <p class="lang-en hidden">Liquid Democracy + Quadratic Voting. No autocracy.</p>
                 </div>
-                <div class="value-item">
-                    <h4>4. 平等与包容 —— 拒绝特权</h4>
-                    <p><strong>机制承诺：</strong> 无特权阶层设计，AI 治理引擎一视同仁。</p>
-                    <small>拒绝特权阶层、裙带关系与阶层固化。</small>
+                <div class="value-card">
+                    <span class="num">04</span>
+                    <h4 class="lang-cn">平等与包容</h4>
+                    <h4 class="lang-en hidden">Equality & Inclusion</h4>
+                    <p class="lang-cn">无特权阶层。AI 治理引擎对所有人一视同仁。</p>
+                    <p class="lang-en hidden">No privileged class. AI treats everyone equally.</p>
                 </div>
-                <div class="value-item">
-                    <h4>5. 透明与公正 —— 防止暴政</h4>
-                    <p><strong>机制承诺：</strong> 链上治理 (On-chain Governance)，所有决策过程 100% 公开可见。</p>
-                    <small>防止暗箱操作、政治黑幕与暴政。</small>
+                <div class="value-card">
+                    <span class="num">05</span>
+                    <h4 class="lang-cn">透明与公正</h4>
+                    <h4 class="lang-en hidden">Transparency & Justice</h4>
+                    <p class="lang-cn">链上治理。让暴政在阳光下无处藏身。</p>
+                    <p class="lang-en hidden">On-chain governance. No place for tyranny to hide.</p>
                 </div>
-                <div class="value-item">
-                    <h4>6. 共享与自治 —— 拆解独裁根源</h4>
-                    <p><strong>机制承诺：</strong> 分布式所有权，共和国资源归全体公民所有。</p>
-                    <small>消解独裁的经济基础与权力垄断。</small>
+                <div class="value-card">
+                    <span class="num">06</span>
+                    <h4 class="lang-cn">共享与自治</h4>
+                    <h4 class="lang-en hidden">Sharing & Autonomy</h4>
+                    <p class="lang-cn">分布式所有权。拆解独裁的经济基础。</p>
+                    <p class="lang-en hidden">Distributed ownership. Dismantle economic roots of dictatorship.</p>
                 </div>
-                <div class="value-item">
-                    <h4>7. 全民基本收入 (UBI)</h4>
-                    <p><strong>机制承诺：</strong> 智能合约自动分红，将 AI 利润返还公民。</p>
-                    <small>消除贫困、失业恐惧与资本剥削。</small>
+                <div class="value-card highlight">
+                    <span class="num">07</span>
+                    <h4 class="lang-cn">全民基本收入 (UBI)</h4>
+                    <h4 class="lang-en hidden">Universal Basic Income</h4>
+                    <p class="lang-cn">生存的解放。将科技创造的财富无条件返还公民。</p>
+                    <p class="lang-en hidden">Survival liberation. Unconditional return of AI wealth.</p>
                 </div>
-                <div class="value-item">
-                    <h4>8. 持续创新 —— 防止制度僵化</h4>
-                    <p><strong>机制承诺：</strong> 演化型宪法，制度像软件一样迭代升级。</p>
-                    <small>抵御制度僵化、官僚主义与组织衰退。</small>
+                <div class="value-card">
+                    <span class="num">08</span>
+                    <h4 class="lang-cn">持续创新</h4>
+                    <h4 class="lang-en hidden">Continuous Innovation</h4>
+                    <p class="lang-cn">演化型宪法。制度自我迭代，永不僵化。</p>
+                    <p class="lang-en hidden">Evolutionary constitution. Never rigid, never corrupt.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="vision">
-        <div class="container content-split">
-            <div class="text">
-                <h3>DAADR 的宏大愿景</h3>
-                <p>我们建立的不是一个国家，而是全人类文明的**“样板间”与“避风港”**。</p>
-                <ul class="feature-list">
-                    <li>🤖 <strong>人机共治架构：</strong> 行政由 AI 执政官执行，立法权归公民所有，确保绝对廉洁与公正。</li>
-                    <li>🕊️ <strong>一个“无恐惧的社会”：</strong> 没有秘密警察，没有因言获罪，没有特权阶级的压迫。</li>
-                    <li>🌍 <strong>全球化试验区：</strong> 它是全人类探索“政治 2.0”的共同事业。</li>
+        <div class="container">
+            <h3 class="lang-cn">宏大愿景 <span class="sub">The Vision</span></h3>
+            <h3 class="lang-en hidden">Our Vision <span class="sub">Blueprint for Humanity</span></h3>
+            
+            <div class="vision-box">
+                <p class="lang-cn">DAADR 不仅仅是一个国家，它是全人类文明的<strong>“样板间”与“避风港”</strong>。</p>
+                <p class="lang-en hidden">DAADR is not just a state, but a <strong>"Model Home" and "Sanctuary"</strong> for human civilization.</p>
+                
+                <ul class="vision-list">
+                    <li>
+                        <strong class="lang-cn">🤖 人机共治：</strong> <span class="lang-cn">行政由 AI 执行，立法归公民，绝对廉洁。</span>
+                        <strong class="lang-en hidden">🤖 AI Governance:</strong> <span class="lang-en hidden">AI executes, Citizens legislate. Absolute integrity.</span>
+                    </li>
+                    <li>
+                        <strong class="lang-cn">🕊️ 无恐惧社会：</strong> <span class="lang-cn">没有秘密警察，没有因言获罪，没有压迫。</span>
+                        <strong class="lang-en hidden">🕊️ Fearless Society:</strong> <span class="lang-en hidden">No secret police, no speech crimes, no oppression.</span>
+                    </li>
+                    <li>
+                        <strong class="lang-cn">🌍 全球试验区：</strong> <span class="lang-cn">全人类探索“政治 2.0”的共同事业。</span>
+                        <strong class="lang-en hidden">🌍 Global Pilot:</strong> <span class="lang-en hidden">A common cause to explore "Politics 2.0".</span>
+                    </li>
                 </ul>
-                <a href="#" class="btn-primary" style="margin-top: 20px;">查看完整白皮书</a>
-            </div>
-            <div class="visual">
-                <div class="placeholder-img">
-                    <span>GOVERNANCE MODEL: HUMAN-AI CO-AUTONOMY</span>
+                
+                <div style="margin-top: 30px;">
+                    <a href="https://daadr-pilot.github.io/C-Users-Administrator-Desktop-DAADR_Website/DAADR%20%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80%E4%B8%8E%E5%88%9B%E4%B8%96%E4%B9%A6.pdf" target="_blank" class="btn-primary lang-cn">查看完整白皮书</a>
+                    <a href="https://daadr-pilot.github.io/C-Users-Administrator-Desktop-DAADR_Website/DAADR%20%E7%8B%AC%E7%AB%8B%E5%AE%A3%E8%A8%80%E4%B8%8E%E5%88%9B%E4%B8%96%E4%B9%A6.pdf" target="_blank" class="btn-primary lang-en hidden">Read Full Whitepaper</a>
                 </div>
             </div>
         </div>
@@ -130,15 +193,29 @@
 
     <footer id="join">
         <div class="container">
-            <h3>加入这场文明实验</h3>
-            <p>我们需要程序员、艺术家、思想家，以及每一个向往自由的灵魂。</p>
+            <h2 class="lang-cn">加入这场文明实验</h2>
+            <h2 class="lang-en hidden">Join the Experiment</h2>
+            
+            <p class="lang-cn">你不再是螺丝钉，你是这片数字大陆的主人。</p>
+            <p class="lang-en hidden">You are no longer a cog, but the owner of this digital continent.</p>
+            
             <div class="social-links">
-                <a href="#" class="btn-primary">Twitter (X)</a>
-                <a href="#" class="btn-secondary">Discord / Telegram</a>
+                <a href="https://x.com/ZUIucgQImBFYaf2" target="_blank" class="btn-primary">Twitter (X)</a>
+                <a href="#" class="btn-secondary">Discord</a>
             </div>
+            
             <p class="copyright">© 2025 DAADR Pilot Zone. Powered by Consensus.</p>
         </div>
     </footer>
 
+    <script>
+        document.getElementById('lang-toggle').addEventListener('click', function() {
+            const cnElements = document.querySelectorAll('.lang-cn');
+            const enElements = document.querySelectorAll('.lang-en');
+            
+            cnElements.forEach(el => el.classList.toggle('hidden'));
+            enElements.forEach(el => el.classList.toggle('hidden'));
+        });
+    </script>
 </body>
 </html>
